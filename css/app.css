@@ -136,3 +136,74 @@ h2 {
   height: 2px;
   background-color: white;
 }
+/* HERO */
+.hero {
+  height: 600px;
+  background: url(../images/set1-happy-couple-1500x630.jpg) no-repeat center
+    center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 100px;
+  filter: brightness(0.7);
+}
+.hero h1 {
+  font-size: 7vw;
+}
+.hero p {
+  font-size: 14px;
+  font-family: Lato-Regular;
+  margin-top: 10px;
+}
+
+/* MARRIED */
+.married {
+  text-align: center;
+}
+.married h2 {
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.p-margin-top {
+  font-size: 15px;
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  color: #595959;
+  line-height: 24px;
+  font-family: Lato-Bold;
+}
+.married .regular {
+  font-size: 35px;
+  color: #cf1b15;
+  margin: 50px 0;
+  font-family: Lato-Regular;
+}
+
+/* TIMER */
+.timer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
+  gap: 1px;
+}
+.box {
+  width: 280px;
+  height: 100px;
+  background-color: #cf1b15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box p {
+  font-size: 17px;
+}
+.box i {
+  font-size: 40px;
+}
