@@ -248,3 +248,36 @@ h2 {
 .who h2 {
   font-size: 39px;
 }
+/* GROOM-BRIDE */
+.couple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 200px;
+  margin-top: 150px;
+}
+.couple h2 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.couple i {
+  font-size: 25px;
+  font-family: Lato-Light;
+}
+.couple p {
+  width: 100%;
+  max-width: 500px;
+  line-height: 30px;
+  margin: 0 auto;
+  color: #595959;
+}
+.zooj img:hover {
+  transform: scale(1.1);
+}
+.zooj img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+  transition: 0.9s;
+}
