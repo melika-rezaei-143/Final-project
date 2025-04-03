@@ -207,3 +207,44 @@ h2 {
 .box i {
   font-size: 40px;
 }
+/* OUR-STORY */
+.story {
+  background-color: #f8f8f8;
+  margin-top: 150px;
+  position: relative;
+  padding-bottom: 110px;
+}
+.story h2 {
+  font-size: 50px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.parageraf1 {
+  display: flex;
+  gap: 50px;
+  text-align: left;
+  padding: 30px 150px;
+  color: darkgray;
+  line-height: 24px;
+}
+
+/* WHO-WE-ARE */
+.who {
+  width: 100%;
+  height: 300px;
+  background: url(../images/set1-young-couple-bw.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  filter: brightness(0.9);
+  position: relative;
+  line-height: 38px;
+}
+.who h2 {
+  font-size: 39px;
+}
