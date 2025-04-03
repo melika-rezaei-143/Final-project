@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+body i {
+  font-style: normal;
+}
+body a {
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-family: great-vibes;
+}
+.red-text {
+  color: #cf1b15;
+}
+@font-face {
+  font-family: great-vibes;
+  src: url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+/* FONT-LATO */
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato/Lato-Black.ttf);
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato-Thin;
+  src: url(../fonts/Lato/Lato-Thin.ttf);
+}
+/* HEART */
+.heart {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 130px;
+  height: 1px;
+  background-color: black;
+  margin: 0 8px;
+}
+.red {
+  font-size: 10px;
+  color: #cf1b15;
+}
+
+/* CIRCLE */
+.circle {
+  border: 15px solid transparent;
+  border-top-color: white;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
