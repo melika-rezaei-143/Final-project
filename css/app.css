@@ -28,6 +28,10 @@ h2 {
 .red-text {
   color: #cf1b15;
 }
+::selection {
+  background-color: #cf1b15;
+  color: white;
+}
 @font-face {
   font-family: great-vibes;
   src: url(../fonts/Great_Vibes/GreatVibes-Regular.ttf);
@@ -665,11 +669,6 @@ button:hover {
     margin: 0;
     padding: 0;
   }
-  .hamberger {
-    display: flex;
-    background-color: #333;
-    color: white;
-  }
   .who {
     background: url(../images/set1-young-couple-bw.jpg) no-repeat center center;
     background-size: cover;
@@ -693,5 +692,96 @@ button:hover {
   }
   .navigation {
     position: static;
+  }
+}
+@media (max-width: 680px) {
+  .footer-container {
+    padding: 0 40px;
+  }
+  .form-group input,
+  select {
+    width: 150px;
+  }
+  .couple {
+    display: flex;
+    flex-direction: column;
+  }
+  .timer {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 780px) {
+  .zooj img {
+    width: 300px;
+  }
+  .main-ceremony {
+    display: flex;
+    flex-direction: column;
+  }
+  .hotels-colorful,
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .hotels-section img {
+    width: 400px;
+    max-width: 700px;
+  }
+  .logo-container img {
+    max-width: 700px;
+    padding: 0;
+  }
+  .footer-container {
+    background: url(../images/set1-young-couple.jpg) no-repeat center center;
+  }
+  .parageraf1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+  }
+  .box-top {
+    display: none;
+  }
+  .hamberger {
+    display: flex;
+    background-color: #333;
+    color: white;
+  }
+}
+@media (max-width: 427px) {
+  .couple {
+    background-color: #cf1b15;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .group-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-ceremony {
+    padding: 20px;
+    margin: 170px 0;
+  }
+  .ceremony h2 {
+    margin-top: 0;
+  }
+  .hotels-section img {
+    padding: 0 65px;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-group input,
+  select {
+    width: 240px;
+    display: block;
+  }
+  .footer-container {
+    height: 1000px;
   }
 }
