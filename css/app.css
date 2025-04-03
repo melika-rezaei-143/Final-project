@@ -652,3 +652,46 @@ button:hover {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* RESPONSIVE (MEDIA) */
+@media (max-width: 1024px) {
+  .logo img {
+    width: 210px;
+  }
+  .menu {
+    display: none;
+  }
+  .couple p {
+    margin: 0;
+    padding: 0;
+  }
+  .hamberger {
+    display: flex;
+    background-color: #333;
+    color: white;
+  }
+  .who {
+    background: url(../images/set1-young-couple-bw.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .accomodation {
+    background: url(../images/house-croisette-promenade-in-cannes-bw.jpg)
+      no-repeat center center;
+    background-size: cover;
+  }
+  .wedding-details {
+    background: url(../images/wedding-colorful-light-balls-bw.jpg) no-repeat
+      center center;
+    background-size: cover;
+  }
+  .hero {
+    width: 600;
+    height: 250px;
+    background: url(../images/set1-happy-couple-1500x630.jpg) no-repeat center
+      center;
+    background-size: cover;
+  }
+  .navigation {
+    position: static;
+  }
+}
