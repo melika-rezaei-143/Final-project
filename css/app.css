@@ -337,3 +337,55 @@ h2 {
 .wedding-details h2 {
   font-size: 50px;
 }
+/* MAIN-CEREMONY */
+.main-ceremony {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.ceremony img {
+  width: 100%;
+  max-width: 430px;
+  margin: 10px 0;
+  transition: 0.9s;
+}
+.ceremony img:hover {
+  transform: scale(1.1);
+}
+.ceremony h2 {
+  font-family: Lato-Thin;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 11px;
+}
+.and {
+  font-family: Great-Vibes;
+  color: #cf1b15;
+  font-size: 40px;
+}
+.ceremony p {
+  font-size: 11px;
+  color: gray;
+}
+
+/* ACCOMODATION */
+.accomodation {
+  height: 300px;
+  background: url(../images/house-croisette-promenade-in-cannes-bw.jpg)
+    no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  filter: brightness(0.9);
+  line-height: 38px;
+  margin: 100px 0;
+}
+.accomodation h2 {
+  font-size: 50px;
+}
